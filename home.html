@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="icon" href="assests/icons8-netflix-24.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    />
+  </head>
+  <body class="bg-black">
+    <nav class="navbar navbar-expand-lg text-light px-5 shadow">
+      <div class="navbar-brand">
+        <img src="assests/icons8-netflix-240.png" alt="" style="height: 50px" />
+      </div>
+      <div class="collapse navbar-collapse mx-5">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link text-light">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-light">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-light">Series</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-flex" id="main-movie">
+      <div class="img_1_content">
+        <div class="duration text-light lead" style="font-size: 14px;">Duration : 1h 45m</div>
+        <div
+          class="rating text-muted text-light d-flex gap-2 align-items-center"
+        >
+          <i class="fa-solid fa-star text-warning"></i>
+          <div class="lead text-light" style="font-size: 16px;">6.6</div>
+          <div class="lead text-secondary" style="font-size: 13px;">Action | Drama | Suspence</div>
+        </div>
+        <div class="text-light" style="font-size: 70px;
+        font-weight: 600;">Rampage</div>
+
+        <div class="description text-light" style="font-size: 10px;">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium
+          corporis iusto voluptate quis libero fugit esse at aliquam inventore
+          ipsam, est ipsa. Praesentium suscipit quia autem qui asperiores iusto
+          expedita.
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center gap-5 mt-4">
+          <button
+            class="btn text-light rounded-pill rounded"
+            style="background-color: red;
+            "
+          >
+          <i class="fa-solid fa-play"></i>   WATCH
+          </button
+          ><button
+            class="btn btn-secondary text-light rounded-pill rounded"
+          >
+        <i class="fa-solid fa-plus"></i> ADD LIST
+        </button>
+        </div>
+      </div>
+      <div class="img_1">
+        <img src="assests/home/slide1.jpg" alt="" class="" />
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col d-flex align-items-center justify-content-center"><div class="text-light d-flex align-items-center justify-content-center gap-2 movie-menu-1"><div class="fa-solid fa-arrow-trend-up"></div>Trending Now</div></div>
+        <div class="col d-flex align-items-center justify-content-center"><div class="text-light d-flex align-items-center justify-content-center gap-2 movie-menu-1"><div class="fa-solid fa-fire"></div>Popular</div></div>
+        <div class="col d-flex align-items-center justify-content-center"><div class="text-light d-flex align-items-center justify-content-center gap-2 movie-menu-1"><div class="fa-solid fa-star"></div>Premieres</div></div>
+        <div class="col d-flex align-items-center justify-content-center"><div class="text-light d-flex align-items-center justify-content-center gap-2 movie-menu-1"><div class="fa-solid fa-add"></div>Recently Added</div></div>
+      </div>
+    </div>
+
+    <div class="container bg-secondary pt-1" style="background-color: gray;"></div>
+
+    <div class="container"  id="trending-content">
+
+      <div class="h3 mt-5 text-light text-start">
+        <i class="fa-solid fa-arrow-trend-up"></i>  Trending Now
+      </div>
+      <div class="conatiner my-5 d-flex align-items-start justify-content-start gap-3" id="trending">
+        <div class="trend-content"><img src="assests/movies/1.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Mowgli</div><div class="text-secondary" style="font-size: 12px;">2013</div></div></div>
+        <div class="trend-content"><img src="assests/movies/2.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Jungle Book</div><div class="text-secondary" style="font-size: 12px;">2020</div></div></div>
+        <div class="trend-content"><img src="assests/movies/3.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Rampage</div><div class="text-secondary" style="font-size: 12px;">2023</div></div></div>
+        <div class="trend-content"><img src="assests/movies/4.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">IP Man 2</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+        <div class="trend-content"><img src="assests/movies/5.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Batman vs Superman</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+        <div class="trend-content"><img src="assests/movies/6.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Mummy</div><div class="text-secondary" style="font-size: 12px;">2014</div></div></div>
+        <div class="trend-content"><img src="assests/movies/7.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Lotus</div><div class="text-secondary" style="font-size: 12px;">2008</div></div></div>
+        <div class="trend-content"><img src="assests/movies/8.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">CODE 8</div><div class="text-secondary" style="font-size: 12px;">2021</div></div></div>
+        <div class="trend-content"><img src="assests/movies/9.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">SAND World</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+       <div class="trend-content"><img src="assests/movies/10.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">MANTO</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+      </div>
+    </div>
+    <div class="container bg-secondary pt-1" style="background-color: gray;"></div>
+
+    <div class="container"  id="trending-content">
+
+      <div class="h3 mt-5 text-light text-start">
+        <i class="fa-solid fa-fire"></i>  Popular
+      </div>
+      <div class="conatiner my-5 d-flex align-items-start justify-content-start gap-3" id="trending">
+        <div class="trend-content"><img src="assests/popular/1.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Gray Man</div><div class="text-secondary" style="font-size: 12px;">2013</div></div></div>
+        <div class="trend-content"><img src="assests/popular/2.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Simulant</div><div class="text-secondary" style="font-size: 12px;">2020</div></div></div>
+        <div class="trend-content"><img src="assests/popular/3.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Dark</div><div class="text-secondary" style="font-size: 12px;">2023</div></div></div>
+        <div class="trend-content"><img src="assests/popular/4.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Money Heist 4</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+        <div class="trend-content"><img src="assests/popular/5.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Peaky Blinders</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+        <div class="trend-content"><img src="assests/popular/6.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">HOW IT ENDS</div><div class="text-secondary" style="font-size: 12px;">2014</div></div></div>
+        <div class="trend-content"><img src="assests/popular/7.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">DEADPOOL</div><div class="text-secondary" style="font-size: 12px;">2008</div></div></div>
+        <div class="trend-content"><img src="assests/popular/8.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">DAREDEVIL</div><div class="text-secondary" style="font-size: 12px;">2021</div></div></div>
+        <div class="trend-content"><img src="assests/popular/9.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">OUTSIDE the WIRE</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+       <div class="trend-content"><img src="assests/popular/10.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Witcher</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+      </div>
+    </div>
+    <div class="container bg-secondary pt-1" style="background-color: gray;"></div>
+    <div class="container">
+      <div class="h3 mt-5 text-light text-start">
+        <i class="fa-solid fa-star"></i>  Premieres
+      </div>
+    </div>
+  
+    <div class="container d-flex align-items-center justify-content-center flex-column">
+      <div class="h1 text-light my-1">
+        Rampage:Trailor (2018)
+      </div>
+      <video src="assests/video/SnapSave.io-RAMPAGE 2_ The Evolution _ Teaser Trailer (2025) Dwyane Johnson concept.mp4" autoplay="true" muted id="video"></video>
+    </div>
+    <div class="container bg-secondary pt-1" style="background-color: gray;"></div>
+
+    <div class="container"  id="trending-content">
+
+      <div class="h3 mt-5 text-light text-start">
+        <i class="fa-solid fa-add"></i>  Watch List
+      </div>
+      <div class="conatiner my-5 d-flex align-items-start justify-content-start gap-3" id="trending">
+        <div class="trend-content"><img src="assests/add/1.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Gray Man</div><div class="text-secondary" style="font-size: 12px;">2013</div></div></div>
+        <div class="trend-content"><img src="assests/add/2.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Simulant</div><div class="text-secondary" style="font-size: 12px;">2020</div></div></div>
+        <div class="trend-content"><img src="assests/add/3.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Dark</div><div class="text-secondary" style="font-size: 12px;">2023</div></div></div>
+        <div class="trend-content"><img src="assests/add/4.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Money Heist 4</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+        <div class="trend-content"><img src="assests/add/5.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">Peaky Blinders</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+        <div class="trend-content"><img src="assests/add/6.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">HOW IT ENDS</div><div class="text-secondary" style="font-size: 12px;">2014</div></div></div>
+        <div class="trend-content"><img src="assests/add/7.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">DEADPOOL</div><div class="text-secondary" style="font-size: 12px;">2008</div></div></div>
+        <div class="trend-content"><img src="assests/add/8.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">DAREDEVIL</div><div class="text-secondary" style="font-size: 12px;">2021</div></div></div>
+        <div class="trend-content"><img src="assests/add/9.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">OUTSIDE the WIRE</div><div class="text-secondary" style="font-size: 12px;">2018</div></div></div>
+        <div class="trend-content"><img src="assests/add/10.jpg" alt="" style="height: 350px;"><div class="d-flex align-items-start justify-content-start flex-column pt-3"><div class="h6 text-light">The Witcher</div><div class="text-secondary" style="font-size: 12px;">2019</div></div></div>
+      </div>
+    </div>
+    <div class="container bg-secondary pt-1" style="background-color: gray;"></div>
+<div class="container">
+  <div class="h3 my-5 text-light text-start">
+    <i class="fa-solid fa-contact-card"></i>  Contact
+  </div>
+</div>
+
+    <div class="container my-5">
+      <div class="h6 contact-links">
+        Questions? Call
+        <a href="" class="link">000-800-919-1694</a>
+      </div>
+
+      <div class="row my-5">
+        <div
+          class="col d-flex align-items-start justify-content-center flex-column gap-4 text-start"
+        >
+          <a href="" class="link contact-links text-secondary">FAQ</a>
+          <a href="" class="link contact-links text-secondary">Investor Relations</a>
+          <a href="" class="link contact-links text-secondary">Privacy</a>
+          <a href="" class="link contact-links text-secondary">Speed Test</a>
+        </div>
+        <div
+          class="col d-flex align-items-start justify-content-center flex-column gap-4 text-start"
+        >
+          <a href="" class="link contact-links text-secondary">Help Centre</a>
+          <a href="" class="link contact-links text-secondary">Jobs</a>
+          <a href="" class="link contact-links text-secondary">Cookie Preferences</a>
+          <a href="" class="link contact-links text-secondary">Legal Notices</a>
+        </div>
+        <div
+          class="col d-flex align-items-start justify-content-center flex-column gap-4 text-start"
+        >
+          <a href="" class="link contact-links text-secondary"> Account</a>
+          <a href="" class="link contact-links text-secondary">Ways to Watch</a>
+          <a href="" class="link contact-links text-secondary">Corporate Information</a>
+          <a href="" class="link contact-links text-secondary"> Only on Netflix</a>
+        </div>
+        <div
+          class="col d-flex align-items-start justify-content-center flex-column gap-4 text-start"
+        >
+          <a href="" class="link contact-links text-secondary"> Media Centre</a>
+          <a href="" class="link contact-links text-secondary"> Terms of Use</a>
+          <a href="" class="link contact-links text-secondary">Contact Us</a>
+        </div>
+      </div>
+      <select name="" id="" class="btn btn-outline-light p-2">
+        <option value="">English</option>
+        <option value="">Hindi</option>
+      </select>
+
+      <br />
+      <br />
+      <div class="h6 text-secondary">Netflix India</div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
